@@ -1,0 +1,14 @@
+<project name="tests" basedir=".">
+
+	<javac srcdir="."
+		destdir="."
+		includeantruntime="false">
+	</javac>
+
+	<java
+		classname="StringTest"
+		classpath=".">
+	</java>
+</project>
+
+
